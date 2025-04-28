@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../imagens/cidade\ em\ desenho.jpg);
+    background-size: cover;
+}
+@font-face {
+    font-family: japao;
+    src: url(../fontes/Japanese2020-axanm.ttf);
+}
+@font-face {
+    font-family: japao2;
+    src: url(../fontes/Manga\ Style.ttf);
+}
+@font-face {
+    font-family: car;
+    src: url(../fontes/HIROMISAKE.ttf);
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-family: japao;
+}
+b{
+    color: #ff2b2b;
+}
+#comida{
+    width: 100vw;
+    height: 40vh;
+    background-image: url(../imagens/comidafund.avif);
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    font-family: japao2; 
+    margin: 30px auto;
+}
+h3{
+    font-family: car;
+    font-size: 60px;
+    text-align: center;
+    color: rgb(171, 82, 255);
+    margin: 20px auto;
+}
+.comidas{
+    width: 35vh;
+    height: 25vh;
+    border-radius: 10px;
+}
+#ponto{
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url(../imagens/fund2.jpg);
+    background-size: cover;
+    padding: 20px;
+}
+.pontos{  
+   height: 50vh;
+   width: 45vw;
+   display: block;
+   margin: 10px auto;
+   border-radius: 20px
+}
+#famoso{
+    width: 100vw;
+    height: 40vh;
+    background-image: url(../imagens/personagemfund.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.famosos{
+    width: 50vh;
+    height: 35vh;
+    border-radius: 20px;
+}
+#carro{
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url(../imagens/bandeira.webp);
+    background-size: cover;
+    padding: 20px;
+}
+.carros{
+    height: 50vh;
+   width: 45vw;
+   display: block;
+   margin: 10px auto;
+   border-radius: 20px   
+}
+#animais{
+    width: 100vw;
+    height: 40vh;
+    background-image: url(../imagens/flore.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.animais{
+    width: 50vh;
+    height: 35vh;
+    border-radius: 20px;
+}
+#mercado{
+    width: 100vw;
+    height: 40vh;
+    background-image: url(../imagens/bairrotokyo.webp);
+    background-size: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mercado{
+    width: 50vh;
+    height: 35vh;
+    border-radius: 20px;
+}
+
+
+
+
+img:hover{
+    border: solid 1px red;
+}
